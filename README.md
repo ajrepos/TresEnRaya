@@ -5,16 +5,18 @@ Este proyecto es una implementación del clásico juego de Tic-Tac-Toe utilizand
 ## Estructura del Proyecto
 
 El proyecto está organizado de la siguiente manera:
-
+```text
 src/
-  ├── App.tsx               # Componente principal de la aplicación que renderiza el componente `Game`.
-  ├── /components
-  │    ├── Board.tsx        # Componente que representa el tablero de juego.
-  │    ├── Square.tsx       # Componente que representa una casilla individual en el tablero.
-  │    ├── Game.tsx         # Componente que maneja el lógica del juego, incluyendo el historial de movimientos y el estado actual del juego.
-  │    └── calculateWinner.ts # Función que determina el ganador del juego.
-  ├── index.css             # Estilos generales para la aplicación.
-  └── main.tsx              # Punto de entrada de la aplicación que renderiza el componente `App`.
+├── App.tsx                 # Componente principal de la aplicación que renderiza el componente `Game`.
+├── /components
+│   ├── Board.tsx           # Componente que representa el tablero de juego.
+│   ├── Square.tsx          # Componente que representa una casilla individual en el tablero.
+│   ├── Game.tsx            # Componente que maneja la lógica del juego, incluyendo el historial de movimientos y el estado actual del juego.
+│   └── calculateWinner.ts  # Función que determina el ganador del juego.
+├── index.css               # Estilos generales para la aplicación.
+└── main.tsx                # Punto de entrada de la aplicación que renderiza el componente `App`.
+
+```
 
 ## Lógica del Juego
 
